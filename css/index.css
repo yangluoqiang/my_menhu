@@ -1,0 +1,173 @@
+/* dali-container */
+.text-center{
+	text-align: center;
+}
+.dali-container{
+	/* margin-top: 40px; */
+	background-color: #eee;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.dali-container .text-center{
+	margin-bottom: 20px;
+}
+.dali-container-img span{
+	/* padding-top: 5px; */
+	border-top-right-radius: 30px;
+	font-size:120px;
+	text-align: center;
+	color: #018bd3;
+	display: block;
+}
+.dali-container p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.dali-container h1{
+	text-align: center;
+    font-size: 36px;
+}
+.media-text h3{
+	margin: 0;
+    font-size: 20px;
+    /* font-weight: 800; */
+    color: #018bd3;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.dali-container .dali-container-img .text-size{
+	padding: 10px 0 0px 0;
+	font-size: 110px;
+}
+.dali-container .col-lg-box{
+	margin: 15px 15px;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	/* transition: 1s; */
+	
+}
+.dali-container .col-lg-box:hover span,.dali-container .col-lg-box:hover h3,.dali-container .col-lg-box:hover{
+background-color: #018bd3;
+color: white !important;
+
+}
+/* .dali-container .col-lg-box:hover,.dali-container .col-lg-box:hover span,.dali-container .col-lg-box:hover h3{
+	color: white;
+	background-color: #018bd3;
+} */
+/* dali-container */
+/* thumbnail-containe */
+.thumbnail-container{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.thumbnail-container .text-uppercase{
+	font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.thumbnail-container h2{
+	font-size: 40px;
+ font-weight: bold;
+ font-family: var(--thm-font);
+ color: var(--thm-black);
+}
+.thumbnail-container .thumbnail-container-titie{
+margin-bottom: 40px;
+}
+.thumbnail-container h3{
+	font-size: 18px;
+	color: #838a93;
+	letter-spacing: .4em;
+	line-height: 40px;
+}
+.thumbnail-container .thumbnail{
+	padding: 0 ;
+	border: none;
+	box-shadow: 0 0 50px -22px #999;
+	margin: 0 5px;
+  
+}
+.thumbnail img{
+	width: 100%;
+}
+.thumbnail-container .thumbnail h3{
+	/* color: #222c5e; */
+	color: #018bd3;
+	letter-spacing: .3em;
+	font-weight: 600;
+}
+.thumbnail p{
+	padding-right: 50px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.thumbnail-container .thumbnail .caption{
+	padding-left: 32px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+/* thumbnail-containe */
+
+
+/* 软件优势 */
+.jumbotron-container .jumbotron{
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+}
+.jumbotron-container .jumbotron .text-uppercase{
+	font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.jumbotron-container .col-md-6 {
+	padding: 0;
+}
+
+.jumbotron-container .jumbotron  h2{
+	font-size: 40px;
+ font-weight: bold;
+ font-family: var(--thm-font);
+ color: var(--thm-black);
+ margin-bottom: 50px;
+} 
+
+.jumbotron-container .jumbotron .jumbotron-container-list{
+	padding: 50px 20px 0 80px;
+}
+.jumbotron-container .jumbotron .jumbotron-container-list h3{
+	font-weight: 700;
+	padding-right: 80px;
+	line-height: 30px;
+	letter-spacing: .2em;
+	font-size: 18px;
+
+}
+.jumbotron-container .jumbotron .jumbotron-container-list p{
+	margin-top: 12px;
+	font-size: 1.1em;
+    color: #777777;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+/* 软件优势 */

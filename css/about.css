@@ -1,0 +1,55 @@
+/* 公司介绍 */
+.container_about{
+	margin: 50px;
+}
+.container_about .container h2{
+	margin-bottom: 30px;
+}
+.container_about .container .suojin{
+	line-height: 25px;
+	font-size: 14px;
+	letter-spacing: .2rem;
+	color: #666;
+	text-indent:2em
+}
+
+.container_about_box{
+	
+	background: url(../img/31.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 40px;
+	padding: 20px;
+}
+.container_about_box h3{
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+.container_about_box_bottom{
+	display: flex;
+	flex-direction: row;
+}
+.container_about_box_bottom img{
+	width: 100%;
+	height: auto;
+}
+.container_about_box_bottom p{
+padding-left: 12px;
+line-height: 20px;
+}
+.container_about_box_right{
+	background: url(../img/30.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 40px;
+	padding: 20px;
+}
+.container_about_box_right .container_about_box_bottom img{
+	width: 40%;
+}
+.container_about_box_right .container_about_box_bottom p{
+	margin-left: 10px;
+}
+.container_about_box_right h3{
+	margin-left: 20px;
+	margin-bottom:10px;
+}
+/* 公司介绍 */

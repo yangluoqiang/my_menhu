@@ -1,0 +1,96 @@
+/* 服务范围 */
+.container_fuwu{
+	margin: 30px 0 50px 0;
+}
+
+.container_fuwu .text-uppercase,.container_xuan_ze_wo_meng  .text-uppercase{
+	font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/* 服务范围 */
+/* 为什么选择我们 */
+.container_xuan_ze_wo_meng{
+
+padding: 30px 0 40px 0;
+background: url(../img/25.png) center top repeat;
+	
+	margin: 100px 0;
+}
+
+.container_xuan_ze_wo_meng .text-center{
+padding-top: -120px;
+}
+.container_xuan_ze_wo_meng .text-center h2{
+	margin-bottom: 40px;
+}
+/* 为什么选择我们 */
+/* 软件服务 */
+.ruanjian-container{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.container_xuan_ze_wo_meng .text-center h2,.container_xuan_ze_wo_meng .text-center .text-uppercase{
+	color: #fff;
+}
+.ruanjian-container .media-left{
+	margin-left: 20px;
+}
+.ruanjian-container .iconfont{
+	font-size: 68px;
+	color: #018bd3;
+}
+.ruanjian-container .text-center{
+margin-bottom: 50px;
+}
+.ruanjian-container .ruanjian-container-box{
+	padding-bottom: 120px;
+}
+.ruanjian-container .ruanjian-container-box .media-heading{
+	font-weight: 700;
+	color: #018bd3;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ruanjian-container .text-uppercase,.container_zhu_ce .text-uppercase{
+	font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.ruanjian-container h2,.container_zhu_ce h2{
+    text-align: center;
+    font-size: 36px;
+
+}
+/* 软件服务 */
+
+
+
+/* 企业介绍 */
+.container_qieye_jiesaho{
+
+}
+.container_qieye_jiesaho_mg{
+width: 100%;
+}
+.container_qieye_jiesaho_list{
+
+}
+.container_qieye_jiesaho_list .container_qieye_jiesaho_list_p{
+	color: #018bd3;
+	font-size: 18px;
+	margin: 30px 0 10px 0;
+	font-weight: bold;
+	font-family: var(--thm-font);
+	
+}
+/* 企业介绍 */

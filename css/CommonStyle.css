@@ -1,0 +1,343 @@
+/* 全局样式 */
+*{
+	padding: 0; 
+	margin: 0; 
+	line-height: normal; 
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+ }
+html{ 
+	width: 100%; 
+	font-size: 0.18em;
+
+    overflow-x:hidden;
+    /* 永远不要出现横向滚动条 */
+}
+body{ 
+	height: 100%; 
+	font-family: 'Arail','microsoft yahei'; 
+	background: #fff; 
+	padding: 0; 
+    margin: 0; 
+	overflow-x:hidden;
+	/* padding-top: 58px; */
+    /* 永远不要出现横向滚动条 */
+}
+ul,ol,li{
+	list-style: none;
+}
+p,span,em,i{ 
+	font-style: normal; 
+	padding: 0; 
+	margin: 0; 
+}
+h1,h2,h3,h4,h5,h6{ 
+	padding: 0; 
+	margin: 0; 
+	background: none; 
+}
+a{ 
+	color: #000; 
+	text-decoration: none; 
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none; 
+}
+img{
+	border: 0;
+}
+.clear{
+    clear: both;
+}
+/*����*/
+.navbar-default{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-bottom: solid 4px #018bd3;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+/* logo位置 */
+.navbar-brand img{
+   width: 180px;
+    height: auto;
+}
+
+.navbar-toggle{
+    margin-top: 1em;
+}
+
+/* 搜索框 */
+.Search-box .form-control {
+vertical-align: middle;
+}
+.Search-box span{
+   
+    vertical-align: middle;
+    color:#0492f9;font-size: 24px;font-weight: 600;line-height: 70px;
+}
+.nav-box{
+    color: #525253;
+}
+
+.nav-top-text h3{
+    margin: 0;
+    line-height: 2em;
+}
+
+
+.Search-box input{
+	/* margin-top: -15px; */
+}
+.glyphicon-search{
+    font-size: 20px;
+font-size: 21px;
+line-height: 58px;
+	color: #0492f9;
+	margin:0 10px;
+}
+.navbar-form{
+	margin: 0;
+}
+/* 导航栏颜色 */
+.navbar-default .navbar_nav>li{
+    float: left;
+}
+.navbar-default .navbar_nav>li>a {
+   display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #453944;
+    line-height: 80px;
+    font-family: "微软雅黑";
+    padding: 0 15px;
+}
+/* 导航下标 */
+
+#bs-example-navbar-collapse-1 li a.active {
+    background: url(../img/moe.png) center bottom no-repeat; 
+    color: #018bd3 !important;
+	background-color: #fff !important;
+}
+.navbar-default .navbar_nav{
+	margin-left: 10px;
+}
+.navbar-default .navbar_nav>li:hover>a.a-t{
+    background: url(../img/moe.png) center bottom no-repeat; 
+    color: #018bd3 !important;
+    background-color: #fff;
+    
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #018bd3;
+}
+
+
+
+/* 轮播图 */
+#carousel-example-captions img{
+width: 100%;
+}
+#carousel-example-captions .carousel-caption{
+    margin-bottom: 200px;
+}
+#carousel-example-captions .carousel-caption h3{
+font-size: 50px;
+font-weight: 600;
+}
+#carousel-example-captions .carousel-caption p{
+    font-size: 30px;
+    font-weight: 600;
+    }
+
+  /* 轮播图 */
+
+  .footer-container{
+	  background-color:#282828 ;
+      color: #fff;
+      background: url(../img/img-4.jpg) center top repeat;
+  }
+  /* footer-container */
+  .footer-container{
+	  padding-top: 35px;
+	  padding-bottom: 30px;
+  }
+  .footer-container .navbar-brand img{
+width: 14em;
+height: auto;
+  }
+  .footer-container .footer-container-list{
+margin-bottom: 15px;
+font-weight: 600;
+  }
+  .footer-container li{
+	  margin-bottom: 5px;
+  }
+  .footer-container-list-i{
+	  /* display: inline-block; */
+	  float: left;
+  }
+  .footer-container-list-em{
+	  /* display: inline-block;s */
+	  width: 70%;
+      float: left;
+      margin-left: 16px;
+  }
+  .footer-container li i{
+	  margin-right: 20px;
+  }
+  .footer-container li span{
+	  margin-left: 24px;
+  }
+  /* footer-container */
+/* 公共标题 */
+
+.container_zhu_ce h3,.container_liu_cheng h3,.youshi_container h3,.container_youshi h3,.container_qieye_jiesaho h3,.ruanjian-container h2,.container_fuwu h2,.container_xuan_ze_wo_meng h2
+,.container_about h2{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 80px;
+}
+
+/* 公共标题 */
+
+  /* 注册服务流程 */
+.container_liu_cheng{
+	background: #fff url(../img/111.jpg) center top repeat-x;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-right: 0;
+    padding-bottom: 50px;
+	padding-left: 0;
+	color: white;
+}
+.container_liu_cheng_box{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+.container_liu_cheng_box_txt{
+	margin-top: 12px;
+margin-left: 10px;
+}
+.container_liu_cheng_box_txt em{
+	font-size: 18px;
+}
+.container_liu_cheng_box span{
+	font-size: 80px;
+
+}
+
+
+/* 注册服务流程 */
+
+/* 服务优势 */
+
+.container_youshi {
+    padding: 50px 0;
+	background: url(../img/222.jpg) center top repeat;
+	margin-bottom: 100px;
+}
+.container_youshi>h3{
+	color: white;
+}
+.container_youshi_box img{
+    border: none;
+    vertical-align: middle;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.container_youshi h4{
+	/* font-size: 20px; */
+	text-align: center;
+	line-height: 40px;
+}
+.container_youshi_list{
+
+	/* margin-bottom: 20px; */
+	position: relative;
+    margin: 0 0 15px 0px;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    overflow: hidden;
+}
+.container_youshi_list img{
+	border: none;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.container_youshi_list_box{
+	position: absolute;
+    top: 30%;
+    padding: 0 40px;
+}	
+.container_youshi_list_box span{
+	font-size: 24px;
+	vertical-align: middle;
+} 
+.container_youshi_list_box em{
+	vertical-align: middle;
+	font-size: 16px;
+	color: #018bd3;
+	margin-left: 2px;
+	font-weight: 800;
+}
+.container_youshi_list p{
+	margin: 10px 0 5px 0;
+	font-size: 12px;
+    color: #a5a5a5;
+    line-height: 1.6;
+    transition: 0.3s 
+}
+/* 服务优势 */
+
+/* 软件服务 */
+.ruanjian-container{
+    margin-top: 30px;
+	margin-bottom: 50px;
+}
+.ruanjian-container.h2{
+    margin-bottom: 0;
+}
+.ruanjian-container .media-left{
+	margin-left: 20px;
+}
+.ruanjian-container .iconfont{
+	font-size: 68px;
+	color: #018bd3;
+}
+.ruanjian-container .text-center{
+margin-bottom: 50px;
+}
+.ruanjian-container .ruanjian-container-box{
+	padding-bottom: 120px;
+}
+.ruanjian-container .ruanjian-container-box .media-heading{
+	font-weight: 700;
+	color: #018bd3;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ruanjian-container .text-uppercase{
+	font-size: 14px;
+    font-weight: 500;
+    color: #838a93;
+    letter-spacing: .4em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* 软件服务 */
